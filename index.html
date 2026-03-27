@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support • troots - trace your roots</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+        
+        :root {
+            --primary: #2e8b57; /* forest green - perfect for family trees */
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background: #f9f9f7;
+        }
+        
+        header {
+            background: white;
+            border-bottom: 1px solid #eee;
+            padding: 1.5rem 5%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+        
+        .tagline {
+            font-size: 1.1rem;
+            color: #666;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #222;
+        }
+        
+        .subtitle {
+            text-align: center;
+            font-size: 1.25rem;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        
+        .contact-box {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .email-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #f0f7f3;
+            color: var(--primary);
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 20px 0;
+            transition: all 0.3s;
+        }
+        
+        .email-link:hover {
+            background: #2e8b57;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        form {
+            margin-top: 30px;
+            text-align: left;
+        }
+        
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: 500;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 14px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        
+        button {
+            background: var(--primary);
+            color: white;
+            padding: 16px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+        }
+        
+        button:hover {
+            background: #246b44;
+        }
+        
+        .faq {
+            margin-top: 60px;
+        }
+        
+        .faq h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .faq-item {
+            background: white;
+            margin-bottom: 15px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">🌳 troots</div>
+        <div class="tagline">trace your roots</div>
+    </header>
+
+    <main>
+        <h1>Support Center</h1>
+        <p class="subtitle">We’re here to help you build beautiful family trees</p>
+
+        <div class="contact-box">
+            <h2>Need help?</h2>
+            <p style="font-size:1.1rem; margin-bottom:20px;">
+                Whether you have a question about creating your family tree, 
+                exporting your data, or anything else — just reach out.
+            </p>
+            
+            <!-- Email -->
+            <a href="mailto:contact.aneeska@gmail.com" class="email-link">
+                contact.aneeska@gmail.com
+            </a>
+            <p style="margin-top:10px; color:#555;">
+                We usually reply within <strong>24–48 hours</strong>
+            </p>
+            
+        </div>
+
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <strong>How do I export my family tree?</strong>
+                <p>You can export your tree as GEDCOM, PDF, or image from the Share menu inside the app.</p>
+            </div>
+            
+            <div class="faq-item">
+                <strong>Is my family data private?</strong>
+                <p>Yes. Your trees are stored privately on your device and only uploaded if you choose to share them.</p>
+            </div>
+            
+            <div class="faq-item">
+                <strong>I’m having trouble adding relatives. What should I do?</strong>
+                <p>Try clearing the app cache or reinstalling. If the issue continues, send us a screenshot via the form above.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            Made with ❤️ for the troots community<br>
+            Follow us on X: <a href="https://x.com/aneeskA" target="_blank">@aneeskA</a>
+        </p>
+        <p>© 2026 troots • All Rights Reserved</p>
+    </footer>
+</body>
+</html>
